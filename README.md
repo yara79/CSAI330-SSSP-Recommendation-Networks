@@ -330,13 +330,13 @@ All growth curves are shown on a single plot with legend, plotting execution tim
 
 ### Time vs Node Count (log-log scale)
 
-![Time vs Nodes](assets/plot_time_vs_nodes.png)
+![Time vs Nodes](runtimegrowth_vs_Numberofnodes.png)
 
 ---
 
 ### Time vs Edge Count (log-log scale)
 
-![Time vs Edges](assets/plot_time_vs_edges.png)
+![Time vs Edges](runtimegrowth_vs_Numberofedges.png)
 
 ---
 
