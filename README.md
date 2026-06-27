@@ -51,7 +51,7 @@ All datasets are sourced from the [Network Repository](https://networkrepository
 |---|---|---|---|---|---|---|---|
 | 1 | `rec-MovieLens100K` | 943 | ~100,000 | ~943 | ~82,000 | Small | GroupLens |
 | 2 | `rec-AmazonBooks` | ~8,000 | ~50,000 | ~7,800 | ~45,000 | Medium | Amazon |
-| 3 | `rec-MoviesAndTv` | 17,770 | 100,480 | ~17,770 | ~100,000 | Medium | Netflix Prize |
+| 3 | `rec-MoviesAndTv` | 17,770 | 100,480 | ~17,770 | ~100,000 | Medium | MoviesAndTv Prize |
 | 4 | `rec-Yelp` | ~200,000 | ~1,000,000 | ~195,000 | ~900,000 | Large | Yelp Open |
 | 5 | `rec-AmazonFull` | 1,000,000+ | 100,000,000+ | — | — | Very Large | Amazon |
 
