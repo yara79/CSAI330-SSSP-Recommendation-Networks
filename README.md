@@ -300,11 +300,10 @@ def animate_sssp(G, order, filename, max_nodes=300):
 
 | Dataset | A\* Animation | CH Animation |
 |---|---|---|
-| MovieLens100K | `videos/movielens_astar.mp4` | `videos/movielens_ch.mp4` |
-| AmazonBooks | `videos/amazonbooks_astar.mp4` | `videos/amazonbooks_ch.mp4` |
-| Netflix | `videos/netflix_astar.mp4` | `videos/netflix_ch.mp4` |
-| Yelp | `videos/yelp_astar.mp4` | `videos/yelp_ch.mp4` |
-| AmazonFull | `videos/amazonfull_astar.mp4` | `videos/amazonfull_ch.mp4` |
+| MovieLens100K | `MovieLens100K_AStar.mp4` | `vMovieLens100K_CH.mp4` |
+| AmazonBooks | `AmazonBooks_AStar.mp4` | `AmazonBooks_CH.mp4` |
+| Yelp | `Yelp_AStar.mp4` | `Yelp_CH.mp4` |
+| AmazonFull | `AmazonFull_AStar.mp4` | `AmazonFull_CH.mp4` |
 
 > **Note:** Videos for AmazonFull use a sampled subgraph of 300 nodes for rendering performance.
 
