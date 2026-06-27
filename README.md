@@ -311,7 +311,7 @@ def animate_sssp(G, order, filename, max_nodes=300):
 
 ---
 
-## Runtime Results — All 5 Algorithms
+## Runtime Results — All 6 Algorithms
 
 | # | Dataset | Dijkstra (s) | A\* (s) | Bidirectional Dijkstra (s) | Grid Graph (s) | CH (s) | Distance Oracle (s) |
 |:---|:---|---:|---:|---:|---:|---:|---:|
