@@ -308,24 +308,18 @@ def animate_sssp(G, order, filename, max_nodes=300):
 
 > **Note:** Videos for AmazonFull use a sampled subgraph of 300 nodes for rendering performance.
 
----
-
-## Computational Cost Growth Curves
-
-All growth curves are shown on a single plot with legend, plotting execution time against the number of nodes and edges for each algorithm across the 4 fully-executed datasets.
-
-### All Growth Curves — Overview
-
-![All Growth Curves](assets/plot_all_growth_curves.png)
-
-*Top-left: Time vs Nodes (log-log) | Top-right: Time vs Edges (log-log) | Bottom-left: A\* vs CH bar comparison | Bottom-right: CH slowdown factor vs A\**
 
 ---
 
-### Execution Time by Dataset (all 4 algorithms)
+## Runtime Results — All 5 Algorithms
 
-![Execution Time by Dataset](assets/plot_execution_time.png)
-
+| # | Dataset | Dijkstra (s) | A\* (s) | Bidirectional Dijkstra (s) | Grid Graph (s) | CH (s) | Distance Oracle (s) |
+|:---|:---|---:|---:|---:|---:|---:|---:|
+| 0 | MovieLens100K  |  0.235107 |  0.143972 | 0.023941 | 0.028420 | 0.000312 |  0.708373 |
+| 1 | AmazonBooks    |  0.328054 |  0.157458 | 0.072791 | 0.211657 | 0.000329 |  1.487728 |
+| 2 | MoviesAndTV    |  0.775365 |  0.812235 | 0.158580 | 0.355928 | 0.000364 |  3.209578 |
+| 3 | Yelp           |  0.879520 |  1.564327 | 0.117566 | 0.221621 | 0.000380 |  4.430733 |
+| 4 | AmazonFull     | 16.113377 | 13.654688 | 1.657221 | 5.079872 | 0.000367 | 87.008399 |
 ---
 
 ### Time vs Node Count (log-log scale)
