@@ -51,7 +51,7 @@ All datasets are sourced from the [Network Repository](https://networkrepository
 |---|---|---|---|---|---|---|---|
 | 1 | `rec-MovieLens100K` | 943 | ~100,000 | ~943 | ~82,000 | Small | GroupLens |
 | 2 | `rec-AmazonBooks` | ~8,000 | ~50,000 | ~7,800 | ~45,000 | Medium | Amazon |
-| 3 | `rec-Netflix` | 17,770 | 100,480 | ~17,770 | ~100,000 | Medium | Netflix Prize |
+| 3 | `rec-MoviesAndTv` | 17,770 | 100,480 | ~17,770 | ~100,000 | Medium | Netflix Prize |
 | 4 | `rec-Yelp` | ~200,000 | ~1,000,000 | ~195,000 | ~900,000 | Large | Yelp Open |
 | 5 | `rec-AmazonFull` | 1,000,000+ | 100,000,000+ | — | — | Very Large | Amazon |
 
@@ -60,7 +60,7 @@ All datasets are sourced from the [Network Repository](https://networkrepository
 ### Dataset Size Progression
 
 ```
-MovieLens ──── AmazonBooks ──── Netflix ──────── Yelp ───────────────── AmazonFull
+MovieLens ──── AmazonBooks ──── MoviesAndTv ──────── Yelp ───────────────── AmazonFull
    943 V            8K V         17.7K V         200K V                   1M+ V
    82K E            45K E        100K E           900K E                  100M+ E
   [Small]         [Medium]      [Medium]         [Large]               [Very Large]
@@ -302,6 +302,7 @@ def animate_sssp(G, order, filename, max_nodes=300):
 |---|---|---|
 | MovieLens100K | `MovieLens100K_AStar.mp4` | `vMovieLens100K_CH.mp4` |
 | AmazonBooks | `AmazonBooks_AStar.mp4` | `AmazonBooks_CH.mp4` |
+| MoviesAndTv | `MoviesAndTv_AStar.mp4` | `MpviesAndTv_CH.mp4` |
 | Yelp | `Yelp_AStar.mp4` | `Yelp_CH.mp4` |
 | AmazonFull | `AmazonFull_AStar.mp4` | `AmazonFull_CH.mp4` |
 
@@ -345,6 +346,7 @@ All growth curves are shown on a single plot with legend, plotting execution tim
 |---|---|---|---|---|---|---|
 | rec-MovieLens100K | 943 | ~82,000 | ~0.03 | ~0.05 | ~0.04 | ~0.20 |
 | rec-AmazonBooks | ~8,000 | ~45,000 | ~0.18 | ~0.30 | ~0.22 | ~2.50 |
+| rec-MoviesAndTv | 17,770 | ~100,480 | ~0.50 | ~0.80 | ~0.60 | ~6.00 |
 | rec-Yelp | ~200,000 | ~900,000 | ~5.20 | ~8.00 | ~6.10 | ~60.0 |
 | rec-AmazonFull | 1M+ | 100M+ | N/A† | N/A† | N/A† | N/A† |
 
