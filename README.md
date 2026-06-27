@@ -302,7 +302,7 @@ def animate_sssp(G, order, filename, max_nodes=300):
 |---|---|---|
 | MovieLens100K | `MovieLens100K_AStar.mp4` | `vMovieLens100K_CH.mp4` |
 | AmazonBooks | `AmazonBooks_AStar.mp4` | `AmazonBooks_CH.mp4` |
-| MoviesAndTv | `MoviesAndTv_AStar.mp4` | `MpviesAndTv_CH.mp4` |
+| MoviesAndTv | `MoviesAndTv_AStar.mp4` | `MoviesAndTv_CH.mp4` |
 | Yelp | `Yelp_AStar.mp4` | `Yelp_CH.mp4` |
 | AmazonFull | `AmazonFull_AStar.mp4` | `AmazonFull_CH.mp4` |
 
