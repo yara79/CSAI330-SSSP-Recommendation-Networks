@@ -345,7 +345,6 @@ All growth curves are shown on a single plot with legend, plotting execution tim
 |---|---|---|---|---|---|---|
 | rec-MovieLens100K | 943 | ~82,000 | ~0.03 | ~0.05 | ~0.04 | ~0.20 |
 | rec-AmazonBooks | ~8,000 | ~45,000 | ~0.18 | ~0.30 | ~0.22 | ~2.50 |
-| rec-Netflix | 17,770 | ~100,480 | ~0.50 | ~0.80 | ~0.60 | ~6.00 |
 | rec-Yelp | ~200,000 | ~900,000 | ~5.20 | ~8.00 | ~6.10 | ~60.0 |
 | rec-AmazonFull | 1M+ | 100M+ | N/A† | N/A† | N/A† | N/A† |
 
